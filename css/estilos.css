@@ -1,0 +1,156 @@
+body{	
+	font: 40 px Arial, Helvetica;
+	padding: 0;
+	margin: 0;
+	background-color: #D3CEE8;
+}
+/*	Estilos Globales*/
+.contenedor	{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;/*Para q elementos se autoajusten al cmabiar de tamaño pestaña*/
+}
+ul{
+	margin: 0; /*Margen hacia afuera*/
+	padding: 0;/*Margen hacia adentro*/
+
+}
+.boton1{
+	height: 10%;/*alto*/
+	background-color: #DD563F;
+	border: 0;
+	padding-left: 20px;/*Margen interior a la izquierda*/
+	padding-right: 20px;
+	color: white;
+}
+
+/*Encabezado*/
+header{
+	color: white;
+	background-color: #044a80;
+	padding-top: 30px; /*Margen interior arriba*/
+	min-height: 70px;/*alto minimo*/
+	border-bottom: 5px solid #D8562F; /*Separado*/
+}
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;/*Asi escribamos en minuscula todo se ve en mayuscula*/
+	font: 16px;/*Tamaño de fuente*/
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px; /* arriba derecha abajo izq*/
+}
+header #logo{
+	float: left;
+}
+header #logo h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header a:hover{/*Al poner cursor sobre boton cambie de color*/
+	color: #DD563F;
+}
+/*Cabecera con imagen*/
+#cabecera{
+	min-height: 400px;
+	background: url("../img/utpl.jpg") no-repeat 0 ;
+	text-align: center;
+	color: white;
+}
+#cabecera h1{
+	margin-top: 100px;
+	font-size: 45px;
+	margin-bottom: 100px;
+}
+#cabecera p{
+	font-size: 20px;
+}
+
+/*Fomulario Suscribirse*/
+#boletin{
+	padding: 5px;
+	color: white;
+	background-color: #044a80;
+	border-bottom: #D8562F;
+}
+#boletin h2{
+	float: left;
+	width: 70%;
+}
+#boletin form{
+	float: rigth;
+	color: white;
+	margin-top: 15px;
+}
+#boletin input [type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+#informacion h3{
+	text-align: center;
+}
+#informacion p{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+
+/*Estilos cajas*/
+#cajas{
+	margin-top: 20px;
+}
+#cajas .caja{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+#cajas .caja img{
+	width: 90px;
+}
+	
+/*Estilos footer*/
+footer {
+	padding: 5px;
+	color: white;
+	background-color: #044a80;
+	text-align: center;
+}
+
+/*Estilo Pestaña Avances*/
+#cabeceraR{
+	text-align: center;
+	border-bottom: #D8562F;
+	position: relative;
+}
+#cabeceraR iframe{
+	position: absolute;
+}
+#cabeceraR p{
+	float: left;
+	margin-left: 50px;
+}
+#cronograma h2{
+	text-align: center;
+}
+#cronograma p{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#resultados h2{
+	text-align: center;
+}
+#resultados p{
+	margin-left: 100px;
+	margin-right: 100px;
+}
